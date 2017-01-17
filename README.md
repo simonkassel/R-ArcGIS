@@ -1,7 +1,5 @@
 # R-ArcGIS
-A couple of years ago, ESRI announced that it was developing a tool that would allow it's users to connect between ArcGIS and R. With the R-ArcGIS Bridge, users can read and write shapefiles and tables to and from ArcGIS from an R console. They can also create ArcGIS tools from R scripts. This package makes it possible to access R's vast array of statistical tools from within ArcGIS.
-
-As a regular user of both R and ArcGIS, I was intrigued by the  potential that this bridge had to improve workflow for spatial analysis. I decided to test it out by building a tool using the new package. I have provided a demo of how the tool works in the post below but if you'd like to see the source code or try it for yourself you can download everything from my GitHub.
+A couple of years ago, ESRI announced that it was developing a tool that would allow it's users to connect between [ArcGIS and R](https://github.com/R-ArcGIS). With the R-ArcGIS Bridge, users can read and write shapefiles and tables to and from ArcGIS from an R console. They can also create ArcGIS tools from R scripts. This package makes it possible to access R's vast array of statistical tools from within ArcGIS.As a regular user of both R and ArcGIS, I was intrigued by the  potential that this bridge had to improve workflow for spatial analysis. I decided to test it out by building a tool using the new package. 
 
 **A Spatial Test Set**
 
@@ -17,7 +15,7 @@ The tool outputs this set of neighborhoods and their associated rates of predict
 
 **How to Use It**
 
-If you have never used the R-Bridge you will need to (very easily) install it before adding this tool. After you have done this, you will need to download the toolbox (.tbx file) R script and sample data to your machine. When you unzip the folder and connect to it in ArcGIS, you can navigate to it you will see a toolbox called "Arc-R_Toolbox.tbx" and within it is a "Logistic Regression_Spatial Test Set." You will need to redirect the tool to the R script you have recently downloaded. You can do this by right-clicking on the script in arc-catalog and clicking on "properties." In the window that pops up, click on the "source" tab and under "Script File:" navigate to the file called "Arc-R_spatial_test_set_sk_Jan17.R." The tool is now ready to run. 
+If you have never used the R-Bridge you will need to (very easily) [install it] (https://github.com/R-ArcGIS/r-bridge-install) before adding this tool. After you have done this, you will need to download the toolbox (.tbx file) R script and sample data to your machine. When you unzip the folder and connect to it in ArcGIS, you can navigate to it you will see a toolbox called "Arc-R_Toolbox.tbx" and within it is a "Logistic Regression_Spatial Test Set." You will need to redirect the tool to the R script you have recently downloaded. You can do this by right-clicking on the script in arc-catalog and clicking on "properties." In the window that pops up, click on the "source" tab and under "Script File:" navigate to the file called "Arc-R_spatial_test_set_sk_Jan17.R." The tool is now ready to run. 
 
 You can open up the tool menu by double clicking it. This will reveal the following menu (without the fields completed):
 
