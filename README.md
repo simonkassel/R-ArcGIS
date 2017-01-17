@@ -21,3 +21,4 @@ If you have never used the R-Bridge you will need to (very easily) install it be
 
 You can open up the tool menu by double clicking it. This will reveal the following menu (without the fields completed):
 
+![](https://github.com/simonkassel/R-ArcGIS/blob/master/Images/tool_menu.png)
