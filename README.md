@@ -1,5 +1,3 @@
-**How to Use It**
-
 If you have never used the R-Bridge you will need to (very easily) [install it] (https://github.com/R-ArcGIS/r-bridge-install) before adding this tool. After you have done this, you will need to download the toolbox (.tbx file) R script and sample data to your machine. When you unzip the folder and connect to it in ArcGIS, you can navigate to it you will see a toolbox called "Arc-R_Toolbox.tbx" and within it is a "Logistic Regression_Spatial Test Set." You will need to redirect the tool to the R script you have recently downloaded. You can do this by right-clicking on the script in arc-catalog and clicking on "properties." In the window that pops up, click on the "source" tab and under "Script File:" navigate to the file called "Arc-R_spatial_test_set_sk_Jan17.R." The tool is now ready to run. 
 
 You can open up the tool menu by double clicking it. This will reveal the following menu (without the fields completed):
