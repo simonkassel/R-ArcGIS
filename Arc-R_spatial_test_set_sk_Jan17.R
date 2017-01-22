@@ -117,6 +117,3 @@ tool_exec <- function(in_params, out_params){
   arc.write(outPutShape, spPolysFinal)
   return(out_params)
 }
-
-
-
