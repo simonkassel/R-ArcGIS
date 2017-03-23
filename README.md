@@ -1,6 +1,6 @@
 ![](https://github.com/simonkassel/R-ArcGIS/blob/master/Images/post_banner_2-01.png)
 
-#**SPATIAL CROSS-VALIDATION WITH ESRI'S R-BRIDGE**
+**SPATIAL CROSS-VALIDATION WITH ESRI'S R-BRIDGE**
 
 When developing predictive models, we often use random cross-validation to measure how consistently a model performs when trained and tested on a number of random training and test sets. When the trend we predict for is spatially auto-correlated we may also want to test to see if there is a spatial bias to the model. Ideally, the model will predict as accurately for an outcome at location X as it does for an outcome at location Y, regardless of how far apart they are. We can use the technique of spatial leave-one-out cross-validation to test whether such bias is present. This process is exceedingly useful when developing spatial models. 
 
